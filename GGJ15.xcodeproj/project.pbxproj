@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2DCC02F1A73FDCE0065D871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCC02E1A73FDCE0065D871 /* AppDelegate.m */; };
+		F2DCC0311A73FDCE0065D871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCC0301A73FDCE0065D871 /* main.m */; };
+		F2DCC0341A73FDCE0065D871 /* GameView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCC0331A73FDCE0065D871 /* GameView.m */; };
+		F2DCC0371A73FDCE0065D871 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCC0361A73FDCE0065D871 /* GameViewController.m */; };
+		F2DCC0391A73FDCE0065D871 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DCC0381A73FDCE0065D871 /* art.scnassets */; };
+		F2DCC03B1A73FDCE0065D871 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DCC03A1A73FDCE0065D871 /* Images.xcassets */; };
+		F2DCC03E1A73FDCE0065D871 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2DCC03C1A73FDCE0065D871 /* MainMenu.xib */; };
+		F2DCC04A1A73FDCE0065D871 /* GGJ15Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DCC0491A73FDCE0065D871 /* GGJ15Tests.m */; };
+		F2DCC08D1A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC0871A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib */; };
+		F2DCC08E1A740CB20065D871 /* libpsmoveapi_tracker.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC0881A740CB20065D871 /* libpsmoveapi_tracker.3.dylib */; };
+		F2DCC08F1A740CB20065D871 /* libpsmoveapi_tracker.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC0891A740CB20065D871 /* libpsmoveapi_tracker.dylib */; };
+		F2DCC0901A740CB20065D871 /* libpsmoveapi.3.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC08A1A740CB20065D871 /* libpsmoveapi.3.0.0.dylib */; };
+		F2DCC0911A740CB20065D871 /* libpsmoveapi.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC08B1A740CB20065D871 /* libpsmoveapi.3.dylib */; };
+		F2DCC0921A740CB20065D871 /* libpsmoveapi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCC08C1A740CB20065D871 /* libpsmoveapi.dylib */; };
+		F2DCC0941A740CD30065D871 /* libpsmoveapi_tracker.3.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC0871A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F2DCC0951A740CD80065D871 /* libpsmoveapi_tracker.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC0881A740CB20065D871 /* libpsmoveapi_tracker.3.dylib */; };
+		F2DCC0961A740CDA0065D871 /* libpsmoveapi_tracker.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC0891A740CB20065D871 /* libpsmoveapi_tracker.dylib */; };
+		F2DCC0971A740CDD0065D871 /* libpsmoveapi.3.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC08A1A740CB20065D871 /* libpsmoveapi.3.0.0.dylib */; };
+		F2DCC0981A740CDF0065D871 /* libpsmoveapi.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC08C1A740CB20065D871 /* libpsmoveapi.dylib */; };
+		F2DCC0991A740DAA0065D871 /* libpsmoveapi.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F2DCC08B1A740CB20065D871 /* libpsmoveapi.3.dylib */; };
+		F2DCC09B1A7446C70065D871 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2DCC09A1A7446C70065D871 /* readme.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2DCC0441A73FDCE0065D871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2DCC0201A73FDCE0065D871 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2DCC0271A73FDCE0065D871;
+			remoteInfo = GGJ15;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2DCC0931A740CCF0065D871 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				F2DCC0991A740DAA0065D871 /* libpsmoveapi.3.dylib in CopyFiles */,
+				F2DCC0971A740CDD0065D871 /* libpsmoveapi.3.0.0.dylib in CopyFiles */,
+				F2DCC0981A740CDF0065D871 /* libpsmoveapi.dylib in CopyFiles */,
+				F2DCC0961A740CDA0065D871 /* libpsmoveapi_tracker.dylib in CopyFiles */,
+				F2DCC0941A740CD30065D871 /* libpsmoveapi_tracker.3.0.0.dylib in CopyFiles */,
+				F2DCC0951A740CD80065D871 /* libpsmoveapi_tracker.3.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F2DCC0281A73FDCE0065D871 /* GGJ15.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGJ15.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DCC02C1A73FDCE0065D871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DCC02D1A73FDCE0065D871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2DCC02E1A73FDCE0065D871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2DCC0301A73FDCE0065D871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2DCC0321A73FDCE0065D871 /* GameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		F2DCC0331A73FDCE0065D871 /* GameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameView.m; sourceTree = "<group>"; };
+		F2DCC0351A73FDCE0065D871 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		F2DCC0361A73FDCE0065D871 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		F2DCC0381A73FDCE0065D871 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F2DCC03A1A73FDCE0065D871 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2DCC03D1A73FDCE0065D871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F2DCC0431A73FDCE0065D871 /* GGJ15Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GGJ15Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DCC0481A73FDCE0065D871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DCC0491A73FDCE0065D871 /* GGJ15Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGJ15Tests.m; sourceTree = "<group>"; };
+		F2DCC0801A740C930065D871 /* psmove_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psmove_config.h; path = GGJ15/psmove_config.h; sourceTree = "<group>"; };
+		F2DCC0811A740C930065D871 /* psmove_fusion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psmove_fusion.h; path = GGJ15/psmove_fusion.h; sourceTree = "<group>"; };
+		F2DCC0821A740C930065D871 /* psmove_tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psmove_tracker.h; path = GGJ15/psmove_tracker.h; sourceTree = "<group>"; };
+		F2DCC0831A740C930065D871 /* psmove.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psmove.h; path = GGJ15/psmove.h; sourceTree = "<group>"; };
+		F2DCC0871A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi_tracker.3.0.0.dylib; path = ../identity/identity/libpsmoveapi_tracker.3.0.0.dylib; sourceTree = "<group>"; };
+		F2DCC0881A740CB20065D871 /* libpsmoveapi_tracker.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi_tracker.3.dylib; path = ../identity/identity/libpsmoveapi_tracker.3.dylib; sourceTree = "<group>"; };
+		F2DCC0891A740CB20065D871 /* libpsmoveapi_tracker.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi_tracker.dylib; path = ../identity/identity/libpsmoveapi_tracker.dylib; sourceTree = "<group>"; };
+		F2DCC08A1A740CB20065D871 /* libpsmoveapi.3.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi.3.0.0.dylib; path = ../identity/identity/libpsmoveapi.3.0.0.dylib; sourceTree = "<group>"; };
+		F2DCC08B1A740CB20065D871 /* libpsmoveapi.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi.3.dylib; path = ../identity/identity/libpsmoveapi.3.dylib; sourceTree = "<group>"; };
+		F2DCC08C1A740CB20065D871 /* libpsmoveapi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpsmoveapi.dylib; path = ../identity/identity/libpsmoveapi.dylib; sourceTree = "<group>"; };
+		F2DCC09A1A7446C70065D871 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme.txt; path = GGJ15/readme.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2DCC0251A73FDCE0065D871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DCC08F1A740CB20065D871 /* libpsmoveapi_tracker.dylib in Frameworks */,
+				F2DCC08D1A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib in Frameworks */,
+				F2DCC0901A740CB20065D871 /* libpsmoveapi.3.0.0.dylib in Frameworks */,
+				F2DCC0921A740CB20065D871 /* libpsmoveapi.dylib in Frameworks */,
+				F2DCC0911A740CB20065D871 /* libpsmoveapi.3.dylib in Frameworks */,
+				F2DCC08E1A740CB20065D871 /* libpsmoveapi_tracker.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DCC0401A73FDCE0065D871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2DCC01F1A73FDCE0065D871 = {
+			isa = PBXGroup;
+			children = (
+				F2DCC09A1A7446C70065D871 /* readme.txt */,
+				F2DCC07F1A740C840065D871 /* ps3move */,
+				F2DCC02A1A73FDCE0065D871 /* GGJ15 */,
+				F2DCC0461A73FDCE0065D871 /* GGJ15Tests */,
+				F2DCC0291A73FDCE0065D871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2DCC0291A73FDCE0065D871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC0281A73FDCE0065D871 /* GGJ15.app */,
+				F2DCC0431A73FDCE0065D871 /* GGJ15Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2DCC02A1A73FDCE0065D871 /* GGJ15 */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC02D1A73FDCE0065D871 /* AppDelegate.h */,
+				F2DCC02E1A73FDCE0065D871 /* AppDelegate.m */,
+				F2DCC0321A73FDCE0065D871 /* GameView.h */,
+				F2DCC0331A73FDCE0065D871 /* GameView.m */,
+				F2DCC0351A73FDCE0065D871 /* GameViewController.h */,
+				F2DCC0361A73FDCE0065D871 /* GameViewController.m */,
+				F2DCC0381A73FDCE0065D871 /* art.scnassets */,
+				F2DCC03A1A73FDCE0065D871 /* Images.xcassets */,
+				F2DCC03C1A73FDCE0065D871 /* MainMenu.xib */,
+				F2DCC02B1A73FDCE0065D871 /* Supporting Files */,
+			);
+			path = GGJ15;
+			sourceTree = "<group>";
+		};
+		F2DCC02B1A73FDCE0065D871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC02C1A73FDCE0065D871 /* Info.plist */,
+				F2DCC0301A73FDCE0065D871 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2DCC0461A73FDCE0065D871 /* GGJ15Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC0491A73FDCE0065D871 /* GGJ15Tests.m */,
+				F2DCC0471A73FDCE0065D871 /* Supporting Files */,
+			);
+			path = GGJ15Tests;
+			sourceTree = "<group>";
+		};
+		F2DCC0471A73FDCE0065D871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC0481A73FDCE0065D871 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2DCC07F1A740C840065D871 /* ps3move */ = {
+			isa = PBXGroup;
+			children = (
+				F2DCC0871A740CB20065D871 /* libpsmoveapi_tracker.3.0.0.dylib */,
+				F2DCC0881A740CB20065D871 /* libpsmoveapi_tracker.3.dylib */,
+				F2DCC0891A740CB20065D871 /* libpsmoveapi_tracker.dylib */,
+				F2DCC08A1A740CB20065D871 /* libpsmoveapi.3.0.0.dylib */,
+				F2DCC08B1A740CB20065D871 /* libpsmoveapi.3.dylib */,
+				F2DCC08C1A740CB20065D871 /* libpsmoveapi.dylib */,
+				F2DCC0801A740C930065D871 /* psmove_config.h */,
+				F2DCC0811A740C930065D871 /* psmove_fusion.h */,
+				F2DCC0831A740C930065D871 /* psmove.h */,
+				F2DCC0821A740C930065D871 /* psmove_tracker.h */,
+			);
+			name = ps3move;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2DCC0271A73FDCE0065D871 /* GGJ15 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DCC04D1A73FDCE0065D871 /* Build configuration list for PBXNativeTarget "GGJ15" */;
+			buildPhases = (
+				F2DCC0241A73FDCE0065D871 /* Sources */,
+				F2DCC0251A73FDCE0065D871 /* Frameworks */,
+				F2DCC0261A73FDCE0065D871 /* Resources */,
+				F2DCC0931A740CCF0065D871 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGJ15;
+			productName = GGJ15;
+			productReference = F2DCC0281A73FDCE0065D871 /* GGJ15.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2DCC0421A73FDCE0065D871 /* GGJ15Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2DCC0501A73FDCE0065D871 /* Build configuration list for PBXNativeTarget "GGJ15Tests" */;
+			buildPhases = (
+				F2DCC03F1A73FDCE0065D871 /* Sources */,
+				F2DCC0401A73FDCE0065D871 /* Frameworks */,
+				F2DCC0411A73FDCE0065D871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2DCC0451A73FDCE0065D871 /* PBXTargetDependency */,
+			);
+			name = GGJ15Tests;
+			productName = GGJ15Tests;
+			productReference = F2DCC0431A73FDCE0065D871 /* GGJ15Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2DCC0201A73FDCE0065D871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Gavin Wood";
+				TargetAttributes = {
+					F2DCC0271A73FDCE0065D871 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F2DCC0421A73FDCE0065D871 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F2DCC0271A73FDCE0065D871;
+					};
+				};
+			};
+			buildConfigurationList = F2DCC0231A73FDCE0065D871 /* Build configuration list for PBXProject "GGJ15" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2DCC01F1A73FDCE0065D871;
+			productRefGroup = F2DCC0291A73FDCE0065D871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2DCC0271A73FDCE0065D871 /* GGJ15 */,
+				F2DCC0421A73FDCE0065D871 /* GGJ15Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2DCC0261A73FDCE0065D871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DCC0391A73FDCE0065D871 /* art.scnassets in Resources */,
+				F2DCC03B1A73FDCE0065D871 /* Images.xcassets in Resources */,
+				F2DCC09B1A7446C70065D871 /* readme.txt in Resources */,
+				F2DCC03E1A73FDCE0065D871 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DCC0411A73FDCE0065D871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DCC0241A73FDCE0065D871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DCC0371A73FDCE0065D871 /* GameViewController.m in Sources */,
+				F2DCC0341A73FDCE0065D871 /* GameView.m in Sources */,
+				F2DCC0311A73FDCE0065D871 /* main.m in Sources */,
+				F2DCC02F1A73FDCE0065D871 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2DCC03F1A73FDCE0065D871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2DCC04A1A73FDCE0065D871 /* GGJ15Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2DCC0451A73FDCE0065D871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2DCC0271A73FDCE0065D871 /* GGJ15 */;
+			targetProxy = F2DCC0441A73FDCE0065D871 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2DCC03C1A73FDCE0065D871 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2DCC03D1A73FDCE0065D871 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2DCC04B1A73FDCE0065D871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F2DCC04C1A73FDCE0065D871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F2DCC04E1A73FDCE0065D871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GGJ15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ngnw/Documents/movegames/identity/identity,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2DCC04F1A73FDCE0065D871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GGJ15/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ngnw/Documents/movegames/identity/identity,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2DCC0511A73FDCE0065D871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GGJ15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGJ15.app/Contents/MacOS/GGJ15";
+			};
+			name = Debug;
+		};
+		F2DCC0521A73FDCE0065D871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GGJ15Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGJ15.app/Contents/MacOS/GGJ15";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2DCC0231A73FDCE0065D871 /* Build configuration list for PBXProject "GGJ15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DCC04B1A73FDCE0065D871 /* Debug */,
+				F2DCC04C1A73FDCE0065D871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DCC04D1A73FDCE0065D871 /* Build configuration list for PBXNativeTarget "GGJ15" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DCC04E1A73FDCE0065D871 /* Debug */,
+				F2DCC04F1A73FDCE0065D871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2DCC0501A73FDCE0065D871 /* Build configuration list for PBXNativeTarget "GGJ15Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DCC0511A73FDCE0065D871 /* Debug */,
+				F2DCC0521A73FDCE0065D871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2DCC0201A73FDCE0065D871 /* Project object */;
+}
